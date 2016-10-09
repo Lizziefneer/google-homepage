@@ -1,0 +1,103 @@
+li {
+	display: inline-block;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+.top {
+	text-align: right;
+	position:relative;
+}
+.top ul li {
+	padding: 0 5px 0 5px;
+	margin-right: 8px;
+	vertical-align: middle;
+}
+
+#E {
+	color: white;
+	background-color: #743dc6;
+	height: 32px;
+	width: 32px;
+	border-radius: 50%;
+	font-family: arial, sans-serif;
+	text-align: center;
+	line-height: 32px;
+}
+h1 {
+	text-align: center;
+	margin-top: 155px;
+}
+form {
+	text-align: center;
+}
+input {
+	width: 42%;
+	height: 33px;
+	border: 1px solid #d9d9d9;
+	background-image: url(google_mic.png);
+	background-repeat:no-repeat;
+	background-position: right;
+}
+input:hover {
+	border-color: #a3a3c2;
+}
+.button {
+	text-align: center;
+	margin-right: 40px;
+}
+button {
+	color:gray;
+	font-size: 13px;
+	font-family: arial, sans-serif;
+	font-weight: bold;
+	background-color: #f2f2f2;
+	border:none;
+	padding: 10px 20px;
+	margin: 17px 5px 0 0;
+}
+button:hover {
+	border: 1px solid silver;
+	color: black;
+}
+
+
+.footer {
+	color: gray;
+	background-color: #f2f2f2;	
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.footer ul {
+	padding: 0 20px;
+}
+.footer ul li {
+	padding: 0 20px;
+}
+.footer ul li:nth-child(4) {
+	float:right;
+}
+.footer ul li:nth-child(5) {
+	float:right;
+}
+.footer ul li:nth-child(6) {
+	float: right;
+}
+
+
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	color:gray;
+}
+a:hover {
+	text-decoration: underline;
+	cursor: default;
+}
+#setting:hover {
+	text-decoration: underline;
+	cursor: default;
+}
+
